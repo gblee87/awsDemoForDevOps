@@ -1,0 +1,8 @@
+project:
+  name: taskcat-example
+  regions:
+    - ap-northeast-1
+    - ap-northeast-2
+tests:
+  sqs-test:
+    template: ./sqs.yml
